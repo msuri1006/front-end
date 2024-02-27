@@ -1,0 +1,46 @@
+.container{
+    width: 900px; 
+    height: 700px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header{
+    background-color: rebeccapurple;
+    height: 100px;
+}
+.col1{
+    width: 200px;
+    text-align: center;
+    color: whi;
+    height: 500px;
+    float: left;
+    background-color: blueviolet;
+}
+.col2{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.col3{
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: green;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+@media only screen and (max-width: 700px) and (min-width: 0px)  {
+    .col2{
+     display: none;
+    }
+}
